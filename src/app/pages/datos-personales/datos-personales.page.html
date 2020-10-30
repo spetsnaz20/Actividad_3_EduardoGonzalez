@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>datos personales</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="inicio"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-label>Nombre: </ion-label>
+  <ion-input placeholder="Introduce el Nomrbe" maxlength="20" type="text" [(ngModel)]="nombre"></ion-input>
+  <ion-label>Localidad: </ion-label>
+  <ion-input placeholder="Introduce la localidad" maxlength="40" type="text" [(ngModel)]="localidad"></ion-input>
+  <ion-label>Curso: </ion-label>
+  <ion-input placeholder="Introduce el curso" maxlength="20" type="text" [(ngModel)]="curso"></ion-input>
+  <ion-label>Email: </ion-label>
+  <ion-input placeholder="Introduce el correo electronico" type="text" maxlength="30" [(ngModel)]="email"></ion-input>
+  <ion-label>Contraseña: </ion-label>
+  <ion-input placeholder="Introduce la contraseña" maxlength="35" type="password"  [(ngModel)]="password"></ion-input>
+
+</ion-content>
